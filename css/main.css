@@ -425,9 +425,6 @@ a {
   color: rgba(82, 82, 82, 1);
 }
 @media screen and (min-width: 1211px) {
-  .q-h-about {
-    background: linear-gradient(359.34deg, #b9e1ff 0.35%, #0059c7 91.53%);
-  }
   .q-h-about-container {
     width: 1440px;
     height: 704px;
