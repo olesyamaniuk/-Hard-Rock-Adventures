@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   const menuBtnRef = document.querySelector("[data-menu-button]");
-  const navListRef = document.querySelector(".q-g-navigation-list");
-  const headerRef = document.querySelector(".q-g-header");
-  const navigationRef = document.querySelector(".q-g-navigation");
+  const navListRef = document.querySelector(".q-h-navigation-list");
+  const headerRef = document.querySelector(".q-h-header");
+  const navigationRef = document.querySelector(".q-h-navigation");
 
   menuBtnRef.addEventListener("click", () => {
     menuBtnRef.classList.toggle("is-open");
@@ -23,14 +23,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function toggleAnswer(element) {
   const answer = element.nextElementSibling;
-  const buttonImg = element.querySelector(".q-g-toggle-button img");
+  const buttonImg = element.querySelector(".q-h-toggle-button img");
 
   if (answer.style.display === "none" || answer.style.display === "") {
     answer.style.display = "block";
-    buttonImg.src = "/img/remove.png";
+    buttonImg.src = "/img/22.png";
   } else {
     answer.style.display = "none";
-    buttonImg.src = "/img/add.png";
+    buttonImg.src = "/img/2.png";
   }
 }
 
