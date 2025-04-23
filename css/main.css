@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Almarai:wght@300;400;700;800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 * {
   -webkit-box-sizing: border-box;
@@ -8,7 +8,7 @@
 html {
   scroll-behavior: smooth;
   background: rgba(255, 255, 255, 1);
-  color: rgba(38, 39, 39, 1);
+  color: rgba(39, 40, 43, 1);
 }
 
 body {
@@ -263,11 +263,11 @@ a {
 }
 .q-g-home {
   width: 375px;
-  height: 969px;
+  height: 973px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("/img/home/2.png");
+  background-image: url("/img/home/Block\ 1.png");
   margin: auto;
 }
 .q-g-home-container {
@@ -284,31 +284,34 @@ a {
 }
 .q-g-home-title-img {
   width: 335px;
-  height: 98px;
+  height: 166px;
 }
 .q-g-home-title {
-  font-family: Sora;
-  font-weight: 800;
+  font-family: Alegreya Sans SC;
+  font-weight: 900;
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0%;
   text-align: center;
+  vertical-align: middle;
 
-  padding: 16px 0 12px;
+  padding: 12px 0 12px;
 }
 
 .q-g-home-text {
-  font-family: Sora;
-  font-weight: 600;
-  font-size: 14px;
+  font-family: Almarai;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
   text-align: center;
+  vertical-align: middle;
+  padding-bottom: 30px;
 }
 
 .q-g-home-google-button-image {
-  width: 375px;
-  height: 208px;
+  width: 373px;
+  height: 118px;
 }
 
 .q-g-home-google-button-link:hover .q-g-home-google-button-image {
@@ -320,108 +323,107 @@ a {
   .q-g-home {
     width: 1440px;
     height: 800px;
-    background-image: url("/img/home/Home.png");
+    background-image: url("/img/home/Block\ 1\ \(1\).png");
   }
   .q-g-home-container {
     width: 1440px;
-    padding: 173px 80px 0px;
+    padding: 144px 88px 0px;
   }
   .q-g-home-container-top {
-    width: 568px;
+    width: 592px;
   }
 
   .q-g-home-title-img {
-    width: 556px;
-    height: 163px;
+    width: 592px;
+    height: 298px;
   }
   .q-g-home-title {
-    font-family: Sora;
+    font-family: Almarai;
     font-weight: 800;
     font-size: 28px;
     line-height: 32px;
     letter-spacing: 0%;
     text-align: center;
+    vertical-align: middle;
+    padding: 10px 0 20px;
   }
 
   .q-g-home-text {
-    font-family: Sora;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
+    font-family: Almarai;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
     letter-spacing: 0%;
     text-align: center;
-    padding-bottom: 20px;
+    vertical-align: middle;
+
+    padding-bottom: 40px;
   }
   .q-g-home-google-button-image {
-    content: url("/img/home/Frame\ 53\ \(2\).png");
-    width: 530px;
-    height: 208px;
+    content: url("/img/home/Button\ Blue\ \(2\).png");
+    width: 400px;
+    height: 118px;
   }
 }
-.q-g-about {
-  background: linear-gradient(213.77deg, #0059c7 20.99%, #b9e1ff 79.96%);
-}
+
 .q-g-about-container {
   width: 375px;
-  height: 1132px;
-  padding: 60px 20px;
+  height: 1170px;
+  padding: 60px 20px 0;
   margin: auto;
   color: rgba(255, 255, 255, 1);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("/img/About\ Us.png");
+  background-image: url("/img/Frame\ 1597880754.png");
 }
 .q-g-about-title {
-  font-family: Sora;
-  font-weight: 800;
-  font-size: 44px;
-  line-height: 48px;
-  letter-spacing: 0%;
+  font-family: Alegreya Sans SC;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0px;
   text-align: center;
 
-  color: rgba(0, 105, 172, 1);
+  color: rgba(105, 0, 138, 1);
 }
 .q-g-about-titleq {
   color: rgba(255, 255, 255, 1);
 }
 .q-g-about-text {
-  font-family: Sora;
+  font-family: Almarai;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(82, 82, 82, 1);
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 0px;
   padding-top: 40px;
 }
 
-.q-g-about-text-bold {
-  font-family: Sora;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0%;
-}
 .q-g-about-list {
   list-style-type: disc;
   margin: 12px 0 0 20px;
-  font-family: Sora;
+  font-family: Almarai;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
+  color: rgba(105, 0, 138, 1);
 }
 .q-g-about-qt {
-  font-family: Sora;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  letter-spacing: 0%;
+  font-family: Almarai;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
   text-align: center;
-  padding-top: 252px;
-  color: rgba(1, 89, 199, 1);
+
+  padding-top: 422px;
+  color: rgba(82, 82, 82, 1);
 }
 @media screen and (min-width: 1210px) {
   .q-g-about {
@@ -429,150 +431,150 @@ a {
   }
   .q-g-about-container {
     width: 1440px;
-    height: 757px;
-    padding: 96px 80px;
-    background-image: url("/img/About\ Us\ \(1\).png");
+    height: 704px;
+    padding: 88px;
+    background-image: url("/img/About.png");
+    display: flex;
+    flex-direction: column;
+    align-items: start;
   }
   .q-g-about-title {
-    font-family: Sora;
-    font-weight: 800;
+    font-family: Alegreya Sans SC;
+    font-weight: 900;
     font-size: 52px;
     line-height: 60px;
-    letter-spacing: 0%;
+    letter-spacing: 0px;
     text-align: center;
   }
 
   .q-g-about-text {
-    font-family: Sora;
+    font-family: Almarai;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 28px;
-    letter-spacing: 0%;
-    width: 613px;
-    gap: 12px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 692px;
+    gap: 20px;
     padding-top: 60px;
   }
 
-  .q-g-about-text-bold {
-    font-family: Sora;
+  .q-g-about-list {
+    font-family: Almarai;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0%;
-  }
-  .q-g-about-list {
-    list-style-type: disc;
-    margin: 12px 0 0 20px;
-    font-family: Sora;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    width: 600px;
-    letter-spacing: 0%;
+    letter-spacing: 0px;
+    width: 692px;
+    padding-top: 24px;
   }
   .q-g-about-qt {
-    font-family: Sora;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 0%;
+    font-family: Almarai;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
     text-align: center;
-
-    padding-top: 21px;
-    color: rgba(1, 89, 199, 1);
+    width: 813px;
+    padding-top: 32px;
   }
 }
 .q-g-why {
-  background: rgba(183, 222, 255, 1);
+  background: linear-gradient(180deg, #7e1ec5 0%, #000889 100%);
 }
 
 .q-g-why-container {
   width: 375px;
-  height: 1716px;
+  height: 2134px;
   margin: auto;
-  padding: 60px 20px;
+  padding: 64px 20px 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("/img/Features.png");
+  background-image: url("/img/Benefits.png");
 }
 .q-g-why-list {
   padding-top: 40px;
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 24px;
 }
 .q-g-why-item {
   width: 335px;
-  height: 164px;
-  border-radius: 28px;
-  padding: 20px;
-  background: rgba(255, 255, 255, 1);
+  height: 196px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img/1.png");
+  padding: 28px;
 }
-.q-g-why-items {
-  background: rgba(1, 89, 199, 1);
-  color: rgba(255, 255, 255, 1);
-}
+
 .q-g-why-text-bold {
-  font-family: Sora;
-  font-weight: 700;
-  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  font-weight: 900;
+  font-size: 20px;
   line-height: 28px;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   text-align: center;
 }
 .q-g-why-text {
-  font-family: Sora;
+  font-family: Almarai;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   text-align: center;
-  padding-top: 24px;
+
+  padding-top: 12px;
 }
 
 @media screen and (min-width: 1210px) {
+  .q-g-why {
+    background: linear-gradient(180deg, #7e1ec5 0%, #000889 100%);
+  }
   .q-g-why-container {
     width: 1440px;
-    height: 757px;
+    height: 1078px;
     margin: auto;
-    padding: 96px 80px 0;
+    padding: 88px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url("/img/Features\ \(1\).png");
+    background-image: url("/img/Benefits\ \(1\).png");
   }
   .q-g-why-list {
     padding-top: 60px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    gap: 48px;
+    gap: 26px;
+    height: 842px;
   }
   .q-g-why-item {
-    width: 276px;
-    height: auto;
-    border-radius: 28px;
-    padding: 20px;
+    width: 368px;
+    height: 240px;
+    background-image: url("/img/11.png");
+    padding: 56px 17px 0;
   }
 
   .q-g-why-text-bold {
-    font-family: Sora;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0%;
+    font-family: Alegreya Sans SC;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
     text-align: center;
   }
   .q-g-why-text {
-    font-family: Sora;
+    font-family: Almarai;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0%;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
     text-align: center;
-
-    padding-top: 24px;
+  }
+  .q-g-why-items {
+    margin-bottom: 300px;
   }
 }
 
@@ -729,36 +731,45 @@ a {
 .q-g-gallery-container {
   width: 375px;
   margin: auto;
-  padding: 60px 20px;
+  padding: 64px 20px;
 }
 .q-g-uniqueness-list {
-  padding-top: 40px;
+  gap: 10px;
+  border-radius: 20px;
+  padding-top: 28px;
+  padding-right: 24px;
+  padding-bottom: 28px;
+  padding-left: 24px;
+  background: rgba(231, 194, 255, 1);
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  color: rgba(105, 0, 138, 1);
 }
 .q-g-uniqueness-text-bold {
-  font-family: Sora;
-  font-weight: 600;
+  font-family: Almarai;
+  font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
+  text-align: center;
 }
 .q-g-uniqueness-text {
-  font-family: Sora;
+  font-family: Almarai;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
+  text-align: center;
 }
 .q-g-gallery-list {
-  padding: 32px 0;
+  padding: 32px 0 36px;
 }
 
 .q-g-gallery-item {
   width: 335px;
-  height: 596px;
-  border-radius: 20px;
+  height: 536px;
+  border-radius: 16px;
 
   overflow: hidden;
   position: relative;
@@ -775,7 +786,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 35px;
+  gap: 32px;
 }
 
 .q-g-gallery-button {
@@ -789,13 +800,19 @@ a {
 .q-g-gallery-button:hover {
   scale: 120%;
 }
+.q-g-gallery-button-containerss {
+  display: none;
+}
 @media screen and (min-width: 1210px) {
   .q-g-gallery-container {
     width: 1440px;
     margin: auto;
-    padding: 96px 80px;
+    padding: 88px 80px;
   }
-
+  .q-g-gallery-div {
+    display: flex;
+    justify-content: space-between;
+  }
   .q-g-uniqueness-list {
     padding-top: 60px;
     display: flex;
@@ -832,37 +849,12 @@ a {
     object-fit: cover;
     object-position: center;
   }
-  .q-g-gallery-button-container {
-    display: flex;
-    align-items: center;
-    gap: 35px;
-  }
-  .q-g-gallery-button-containers {
-    position: absolute;
-    z-index: 10;
-  }
-  .q-g-gallery-list-left {
-    position: absolute;
-    top: -430px;
-    z-index: 10;
-    left: 0px;
-  }
-  .q-g-gallery-list-right {
-    position: absolute;
-    top: -430px;
-    left: 1230px;
-    z-index: 10;
-  }
-  .q-g-gallery-button {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    -webkit-transition: scale 0.3s ease;
-    transition: scale 0.3s ease;
-  }
 
-  .q-g-gallery-button:hover {
-    scale: 120%;
+  .q-g-gallery-button-containers {
+    display: none;
+  }
+  .q-g-gallery-button-containerss {
+    display: flex;
   }
 }
 
@@ -870,7 +862,7 @@ a {
   padding: 124px 16px 40px;
   width: 375px;
   margin: auto;
-  font-family: Sora;
+  font-family: Inter;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -878,7 +870,7 @@ a {
 
 .q-g-policy-terms-title {
   text-transform: uppercase;
-  font-family: Sora;
+  font-family: Inter;
   font-weight: 800;
   font-size: 28px;
   line-height: 32px;
@@ -889,7 +881,7 @@ a {
 
 .q-g-policy-terms-text {
   padding-top: 20px;
-  font-family: Sora;
+  font-family: Inter;
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
@@ -933,7 +925,6 @@ a {
   }
 
   .q-g-policy-terms-title {
-    font-family: Sora;
     font-weight: 800;
     font-size: 32px;
     line-height: 40px;
@@ -973,8 +964,8 @@ a {
   flex-direction: row;
   align-items: center;
   gap: 4px;
-  font-family: Sora;
-  font-weight: 400;
+  font-family: Alegreya Sans SC;
+  font-weight: 700;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0%;
@@ -986,10 +977,10 @@ a {
 }
 
 .q-g-footer-copyright {
-  font-family: Sora;
+  font-family: Alegreya Sans SC;
   font-weight: 400;
   font-size: 10px;
-  line-height: 12px;
+  line-height: 16px;
   letter-spacing: 0%;
 }
 
@@ -1007,7 +998,7 @@ a {
   .q-g-footer-wrapper {
     display: flex;
     flex-direction: row;
-    font-family: Sora;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -1017,7 +1008,6 @@ a {
   }
 
   .q-g-footer-copyright {
-    font-family: Sora;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
